@@ -41,9 +41,9 @@ if __name__ == "__main__":
     train_collate = CustomCollate(cfg, tokenizer)
     val_collate = CustomCollate(cfg, tokenizer)
     train_dataloader = DataLoader(train_set, batch_size=cfg.batch_size,
-                                  num_workers=cfg.num_workers, collate_fn=train_collate)
+                                  num_workers=cfg.num_workers, collate_fn=train_collate,drop_last=True)
     valid_dataloader = DataLoader(val_set, batch_size=cfg.batch_size,
-                                  num_workers=cfg.num_workers, collate_fn=val_collate)
+                                  num_workers=cfg.num_workers, collate_fn=val_collate,drop_last=True)
 
     model = TransformerOCR(cfg, tokenizer)
 

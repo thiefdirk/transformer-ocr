@@ -7,6 +7,8 @@ from albumentations.pytorch import ToTensorV2
 from PIL import Image
 from pathlib import Path
 
+# python C:\transformer-ocr/run.py --setting C:\transformer-ocr/settings/default.yaml --version 0 --max_epochs 100 --num_workers 16 --batch_size 128
+
 
 class CustomDataset(torch.utils.data.Dataset):
     def __init__(self, cfg, txt_fn):

@@ -10,11 +10,11 @@ name: "transformer-ocr test"
 
 # Training parameters
 epochs: 60
-batchsize: 128
+batchsize: 2 # 128
 
 # Testing parameters
-testbatchsize: 20
-valbatches: 100
+testbatchsize: 1 # 20
+valbatches: 1 # 100
 temperature: 0.2
 
 # Optimizer configurations

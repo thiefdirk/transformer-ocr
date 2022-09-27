@@ -1,0 +1,9 @@
+crop_31.png/우곡면
+crop_32.png/마량면
+crop_33.png/부안면
+crop_34.png/노변동
+crop_35.png/용제동
+crop_36.png/전외면
+crop_37.png/내삼미동
+crop_38.png/우강면
+crop_39.png/연호동
