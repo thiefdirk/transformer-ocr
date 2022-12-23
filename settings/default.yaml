@@ -1,8 +1,8 @@
 # Input/Output/Name
-image_dir: "dataset/preprocessed_image"
-train_data: "dataset/train.txt"
-val_data: "dataset/val.txt"
-tokenizer: "dataset/tokenizer.pkl"
+image_dir: "C:/transformer-ocr/dataset/preprocessed_image"
+train_data: "C:/transformer-ocr/dataset/train.txt"
+val_data: "C:/transformer-ocr/dataset/val.txt"
+tokenizer: "C:/transformer-ocr/dataset/tokenizer.pkl"
 output_path: "outputs"
 model_path: "checkpoints"
 load_chkpt: null # continue training
@@ -10,11 +10,11 @@ name: "transformer-ocr test"
 
 # Training parameters
 epochs: 60
-batchsize: 2 # 128
+batchsize: 12 # 128
 
 # Testing parameters
-testbatchsize: 1 # 20
-valbatches: 1 # 100
+testbatchsize: 2 # 20
+valbatches: 2 # 100
 temperature: 0.2
 
 # Optimizer configurations
